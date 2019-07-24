@@ -39,6 +39,7 @@ echo ^|Created by: Zachary Sasser       ^|
 echo -----------------------------------
 
 color 0b
+netsh wlan delete profile "*-wallaby"
 for /l %%x in (1,1,%tests%) do ( 
 	echo 	Test #%%x initiating...
 	for /l %%n in (1,1,%wallabies%) do (
@@ -95,7 +96,7 @@ for /l %%x in (1,1,%tests%) do (
 	echo ^|Created by: Zachary Sasser       ^|
 	echo -----------------------------------
 )
-
+netsh wlan delete profile "*-wallaby"
 
 
 cls
@@ -105,7 +106,7 @@ pause
 EXIT \B 0
 
 :ERROR
-
+netsh wlan delete profile "*-wallaby"
 color CF
 echo. WALLABY MALFUNCTION OR ERROR HAS OCCURED PLEASE TRY AGAIN
 pause

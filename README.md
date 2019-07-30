@@ -13,7 +13,7 @@ How to use:
 8. Enter how many times you'd like to powercycle (turn off and on) the Wallabies.
 
 
-**getPassword.py**
+**getPassword.py:**
 This program calculates and returns the password of any wallaby given a serial number.
 
 Run this command:

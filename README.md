@@ -1,6 +1,9 @@
 # KIPR-Wifi-Testing-Utility
 Allows you to test the wifi connection of multiple wallabies with a power cycle
 
+Required Software:
+-Python: https://www.python.org/downloads/ llll bjio
+
 How to use:
 
 1. Download the Wifi Tester.bat file
